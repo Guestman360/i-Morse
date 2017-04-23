@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046D635C1E9563CE009F914A /* AddNewCodeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 046D635B1E9563CE009F914A /* AddNewCodeVC.m */; };
+		048652371E87859F00FC2F6B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048652361E87859F00FC2F6B /* AVFoundation.framework */; };
+		048652391E8785B700FC2F6B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048652381E8785B700FC2F6B /* AudioToolbox.framework */; };
+		0486523B1E8785BF00FC2F6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0486523A1E8785BF00FC2F6B /* Foundation.framework */; };
+		0486523D1E8785D100FC2F6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0486523C1E8785D100FC2F6B /* CoreGraphics.framework */; };
+		0486523F1E8785E900FC2F6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0486523E1E8785E900FC2F6B /* UIKit.framework */; };
+		04E36B1E1E85D4A70026454B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E36B1D1E85D4A70026454B /* main.m */; };
+		04E36B211E85D4A70026454B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E36B201E85D4A70026454B /* AppDelegate.m */; };
+		04E36B241E85D4A70026454B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E36B231E85D4A70026454B /* MainViewController.m */; };
+		04E36B2C1E85D4A70026454B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E36B2B1E85D4A70026454B /* Assets.xcassets */; };
+		04E36B2F1E85D4A70026454B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E36B2D1E85D4A70026454B /* LaunchScreen.storyboard */; };
+		04E36B421E85D6980026454B /* MCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E36B411E85D6980026454B /* MCTableViewController.m */; };
+		04E36B451E85D6D10026454B /* MCReferenceTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E36B441E85D6D10026454B /* MCReferenceTableVC.m */; };
+		04E36B481E85D7490026454B /* MorseCodeConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E36B471E85D7490026454B /* MorseCodeConverter.m */; };
+		04E5C0F11E887BF9009C8934 /* dash.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04E5C0F01E887BF9009C8934 /* dash.wav */; };
+		04E5C0F31E887C0F009C8934 /* dot.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04E5C0F21E887C0F009C8934 /* dot.wav */; };
+		852C1D251EA5F46E00AAF29D /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 852C1D231EA5F46E00AAF29D /* Model.xcdatamodeld */; };
+		852C1D4E1EA5F6E200AAF29D /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 852C1D4D1EA5F6E200AAF29D /* CoreDataManager.m */; };
+		8534F7C51EA6242B00463A34 /* UsefulCodes+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 8534F7C31EA6242B00463A34 /* UsefulCodes+CoreDataProperties.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		042D88EB1E94135400E0D5F7 /* iMorseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iMorseTests.m; sourceTree = "<group>"; };
+		042D88ED1E94135400E0D5F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046D635A1E9563CE009F914A /* AddNewCodeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNewCodeVC.h; sourceTree = "<group>"; };
+		046D635B1E9563CE009F914A /* AddNewCodeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNewCodeVC.m; sourceTree = "<group>"; };
+		048652361E87859F00FC2F6B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		048652381E8785B700FC2F6B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0486523A1E8785BF00FC2F6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0486523C1E8785D100FC2F6B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0486523E1E8785E900FC2F6B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		04E36B191E85D4A70026454B /* iMorse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMorse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E36B1D1E85D4A70026454B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04E36B1F1E85D4A70026454B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04E36B201E85D4A70026454B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04E36B221E85D4A70026454B /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		04E36B231E85D4A70026454B /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		04E36B2B1E85D4A70026454B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04E36B2E1E85D4A70026454B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04E36B301E85D4A70026454B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E36B401E85D6980026454B /* MCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCTableViewController.h; sourceTree = "<group>"; };
+		04E36B411E85D6980026454B /* MCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCTableViewController.m; sourceTree = "<group>"; };
+		04E36B431E85D6D10026454B /* MCReferenceTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCReferenceTableVC.h; sourceTree = "<group>"; };
+		04E36B441E85D6D10026454B /* MCReferenceTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCReferenceTableVC.m; sourceTree = "<group>"; };
+		04E36B461E85D7490026454B /* MorseCodeConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MorseCodeConverter.h; sourceTree = "<group>"; };
+		04E36B471E85D7490026454B /* MorseCodeConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MorseCodeConverter.m; sourceTree = "<group>"; };
+		04E5C0F01E887BF9009C8934 /* dash.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dash.wav; sourceTree = "<group>"; };
+		04E5C0F21E887C0F009C8934 /* dot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dot.wav; sourceTree = "<group>"; };
+		852C1D241EA5F46E00AAF29D /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		852C1D4C1EA5F6E200AAF29D /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
+		852C1D4D1EA5F6E200AAF29D /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
+		852C1D4F1EA60CA100AAF29D /* iMorse-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iMorse-Bridging-Header.h"; sourceTree = "<group>"; };
+		8534F7C01EA6242B00463A34 /* UsefulCodes+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UsefulCodes+CoreDataClass.h"; sourceTree = "<group>"; };
+		8534F7C11EA6242B00463A34 /* UsefulCodes+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UsefulCodes+CoreDataClass.m"; sourceTree = "<group>"; };
+		8534F7C21EA6242B00463A34 /* UsefulCodes+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UsefulCodes+CoreDataProperties.h"; sourceTree = "<group>"; };
+		8534F7C31EA6242B00463A34 /* UsefulCodes+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UsefulCodes+CoreDataProperties.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04E36B161E85D4A70026454B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0486523F1E8785E900FC2F6B /* UIKit.framework in Frameworks */,
+				0486523D1E8785D100FC2F6B /* CoreGraphics.framework in Frameworks */,
+				0486523B1E8785BF00FC2F6B /* Foundation.framework in Frameworks */,
+				048652391E8785B700FC2F6B /* AudioToolbox.framework in Frameworks */,
+				048652371E87859F00FC2F6B /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		042D88EA1E94135400E0D5F7 /* iMorseTests */ = {
+			isa = PBXGroup;
+			children = (
+				042D88EB1E94135400E0D5F7 /* iMorseTests.m */,
+				042D88ED1E94135400E0D5F7 /* Info.plist */,
+			);
+			path = iMorseTests;
+			sourceTree = "<group>";
+		};
+		048652351E87859F00FC2F6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0486523E1E8785E900FC2F6B /* UIKit.framework */,
+				0486523C1E8785D100FC2F6B /* CoreGraphics.framework */,
+				0486523A1E8785BF00FC2F6B /* Foundation.framework */,
+				048652381E8785B700FC2F6B /* AudioToolbox.framework */,
+				048652361E87859F00FC2F6B /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04E36B101E85D4A70026454B = {
+			isa = PBXGroup;
+			children = (
+				04E36B1B1E85D4A70026454B /* iMorse */,
+				042D88EA1E94135400E0D5F7 /* iMorseTests */,
+				04E36B1A1E85D4A70026454B /* Products */,
+				048652351E87859F00FC2F6B /* Frameworks */,
+				852C1D4F1EA60CA100AAF29D /* iMorse-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		04E36B1A1E85D4A70026454B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04E36B191E85D4A70026454B /* iMorse.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04E36B1B1E85D4A70026454B /* iMorse */ = {
+			isa = PBXGroup;
+			children = (
+				04E36B381E85D4D20026454B /* Controller */,
+				04E36B371E85D4CB0026454B /* View */,
+				04E36B361E85D4C30026454B /* Model */,
+				04E36B1F1E85D4A70026454B /* AppDelegate.h */,
+				04E36B201E85D4A70026454B /* AppDelegate.m */,
+				04E36B2B1E85D4A70026454B /* Assets.xcassets */,
+				04E36B301E85D4A70026454B /* Info.plist */,
+				04E36B1C1E85D4A70026454B /* Supporting Files */,
+			);
+			path = iMorse;
+			sourceTree = "<group>";
+		};
+		04E36B1C1E85D4A70026454B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				854464DE1EA6234500DBAC92 /* Coredata Models */,
+				852C1D231EA5F46E00AAF29D /* Model.xcdatamodeld */,
+				04E5C0F21E887C0F009C8934 /* dot.wav */,
+				04E5C0F01E887BF9009C8934 /* dash.wav */,
+				04E36B1D1E85D4A70026454B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04E36B361E85D4C30026454B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				046D635A1E9563CE009F914A /* AddNewCodeVC.h */,
+				046D635B1E9563CE009F914A /* AddNewCodeVC.m */,
+				04E36B461E85D7490026454B /* MorseCodeConverter.h */,
+				04E36B471E85D7490026454B /* MorseCodeConverter.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		04E36B371E85D4CB0026454B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04E36B2D1E85D4A70026454B /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		04E36B381E85D4D20026454B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04E36B221E85D4A70026454B /* MainViewController.h */,
+				04E36B231E85D4A70026454B /* MainViewController.m */,
+				04E36B401E85D6980026454B /* MCTableViewController.h */,
+				04E36B411E85D6980026454B /* MCTableViewController.m */,
+				04E36B431E85D6D10026454B /* MCReferenceTableVC.h */,
+				04E36B441E85D6D10026454B /* MCReferenceTableVC.m */,
+				852C1D4C1EA5F6E200AAF29D /* CoreDataManager.h */,
+				852C1D4D1EA5F6E200AAF29D /* CoreDataManager.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		854464DE1EA6234500DBAC92 /* Coredata Models */ = {
+			isa = PBXGroup;
+			children = (
+				8534F7C01EA6242B00463A34 /* UsefulCodes+CoreDataClass.h */,
+				8534F7C11EA6242B00463A34 /* UsefulCodes+CoreDataClass.m */,
+				8534F7C21EA6242B00463A34 /* UsefulCodes+CoreDataProperties.h */,
+				8534F7C31EA6242B00463A34 /* UsefulCodes+CoreDataProperties.m */,
+			);
+			path = "Coredata Models";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04E36B181E85D4A70026454B /* iMorse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E36B331E85D4A70026454B /* Build configuration list for PBXNativeTarget "iMorse" */;
+			buildPhases = (
+				04E36B151E85D4A70026454B /* Sources */,
+				04E36B161E85D4A70026454B /* Frameworks */,
+				04E36B171E85D4A70026454B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iMorse;
+			productName = iMorse;
+			productReference = 04E36B191E85D4A70026454B /* iMorse.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04E36B111E85D4A70026454B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = AlphaApplications;
+				TargetAttributes = {
+					04E36B181E85D4A70026454B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = YQ9GWYBA6Y;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 04E36B141E85D4A70026454B /* Build configuration list for PBXProject "iMorse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04E36B101E85D4A70026454B;
+			productRefGroup = 04E36B1A1E85D4A70026454B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04E36B181E85D4A70026454B /* iMorse */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04E36B171E85D4A70026454B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E5C0F31E887C0F009C8934 /* dot.wav in Resources */,
+				04E5C0F11E887BF9009C8934 /* dash.wav in Resources */,
+				04E36B2F1E85D4A70026454B /* LaunchScreen.storyboard in Resources */,
+				04E36B2C1E85D4A70026454B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04E36B151E85D4A70026454B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046D635C1E9563CE009F914A /* AddNewCodeVC.m in Sources */,
+				04E36B241E85D4A70026454B /* MainViewController.m in Sources */,
+				04E36B451E85D6D10026454B /* MCReferenceTableVC.m in Sources */,
+				852C1D4E1EA5F6E200AAF29D /* CoreDataManager.m in Sources */,
+				852C1D251EA5F46E00AAF29D /* Model.xcdatamodeld in Sources */,
+				04E36B211E85D4A70026454B /* AppDelegate.m in Sources */,
+				04E36B481E85D7490026454B /* MorseCodeConverter.m in Sources */,
+				04E36B1E1E85D4A70026454B /* main.m in Sources */,
+				04E36B421E85D6980026454B /* MCTableViewController.m in Sources */,
+				8534F7C51EA6242B00463A34 /* UsefulCodes+CoreDataProperties.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04E36B2D1E85D4A70026454B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E36B2E1E85D4A70026454B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04E36B311E85D4A70026454B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04E36B321E85D4A70026454B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04E36B341E85D4A70026454B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = YQ9GWYBA6Y;
+				INFOPLIST_FILE = iMorse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MGApps.iMorse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "iMorse-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		04E36B351E85D4A70026454B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = YQ9GWYBA6Y;
+				INFOPLIST_FILE = iMorse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MGApps.iMorse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "iMorse-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04E36B141E85D4A70026454B /* Build configuration list for PBXProject "iMorse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E36B311E85D4A70026454B /* Debug */,
+				04E36B321E85D4A70026454B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E36B331E85D4A70026454B /* Build configuration list for PBXNativeTarget "iMorse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E36B341E85D4A70026454B /* Debug */,
+				04E36B351E85D4A70026454B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		852C1D231EA5F46E00AAF29D /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				852C1D241EA5F46E00AAF29D /* Model.xcdatamodel */,
+			);
+			currentVersion = 852C1D241EA5F46E00AAF29D /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04E36B111E85D4A70026454B /* Project object */;
+}
